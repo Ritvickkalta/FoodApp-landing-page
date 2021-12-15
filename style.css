@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: whitesmoke;
+}
+.page{
+    display: flex;
+}
+.sidebar p{
+    padding: 20px 60px ;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    background-color: red;
+    font-weight:200;
+    opacity: 0.7;
+    color: white;
+}
+.sidebar{
+  padding: 50px;
+  font-weight: 500;
+}
+.sidebar ul{
+    list-style: none;
+    margin-top: 35px;
+}
+.sidebar h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 550;
+}
+.sidebar ul li{
+    margin-top: 50px;
+    font-size: 18px;
+    pointer-events: none;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.6;
+}
+.center{
+    display: flex;
+    margin-top: 13%;
+    margin-left: 120px;
+}
+.center h1{
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    opacity: 2;
+    font-weight: 500;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+}
+.fooditems {
+    display:flex;
+    list-style: none;
+}
+.fooditems li{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color:white;
+    padding: 25px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-around;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.fooditems{
+    margin-left: 110px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.fooditems li img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.center p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-left: 70px;
+    opacity: 0.6;
+}
+.center p span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid red;
+}
+.sidebar ul li span{
+    margin-top: 50px;
+    font-size: 18px;
+    pointer-events: none;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 3px solid red;
+}
